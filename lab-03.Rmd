@@ -86,7 +86,6 @@ How many observations are there in the data set?
 ## Exercise 2
 
 ```{r pivoting}
-## Uncomment and complete the following code
 
 staff_long <- staff %>%
   pivot_longer(
@@ -101,8 +100,6 @@ staff_long <- staff %>%
 ## Exercise 3
 
 ```{r dot-plot}
-# Write your code for Exercise 3 here
-
 
 
 ```
