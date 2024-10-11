@@ -178,8 +178,19 @@ _Write below your ideas for adapting the line plot_
 ## Exercise 8
 
 ```{r implement-Ex7}
-# Write your code for Exercise 8 here
 
+ggplot(data = staff_long,
+       mapping = aes(x = year, 
+                     y = percent,
+                     colour = faculty_type)) +
+  geom_point() + 
+  labs(
+    x = "Year",
+    y = "Percentage",
+    title = "Composition of Faculties",
+    color = "Faculty"
+  ) +
+  geom_smooth(method=lm, se=FALSE)
 
 
 ```
