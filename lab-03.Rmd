@@ -170,10 +170,9 @@ ggplot(data = staff_long,
 
 _Write below your ideas for adapting the line plot_
 
-* Idea 1
-* Idea 2
-* Idea 3
-* ...
+* Draw a line of best fit for the different variables
+* Compile the other variables to show a pure comparison
+* Make the graph a bar chart
 
 
 ## Exercise 8
