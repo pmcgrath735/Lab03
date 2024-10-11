@@ -1,6 +1,6 @@
 ---
 title: "Lab 03 - Take a sad plot and make it better"
-author: "Peter , Max, Ella, Libby, Maya and User6 - Team Name"
+author: "Peter, Max, Ella, Libby, Maya and User6 - Team Name"
 date: "`r Sys.Date()`"
 output: html_document
 ---
@@ -72,13 +72,15 @@ staff <- read_csv("data/instructional-staff.csv")
 
 What is the difference between *wide format* data and *long format* data?
 
+A wide format has values that do not repeat in the first column. A long format has values that do repeat in the first column.
 
 Is the format `staff` data *wide* or *long*?
 
+Wide 
 
 How many observations are there in the data set?
 
-
+55
 
 
 ## Exercise 2
