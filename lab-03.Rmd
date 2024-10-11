@@ -129,8 +129,8 @@ ggplot(data = staff_long,
 ```{r mutate-year}
 ## Uncomment and complete the following code
 
-#staff_long <- staff_long %>%
-#  mutate(year = ______(year))
+staff_long <- staff_long %>%
+  mutate(year = is.numeric(year))
 ```
 
 
